@@ -1,1 +1,1 @@
-A ideia é criar um site explicando a PL de início, depois explicando a diferença entre as principais ligas (a BR tmb), apenas para teste mesmo :) 
+A ideia é criar um site explicando a PL de início, depois explicando a diferença entre as principais ligas (a BR tmb), apenas para teste mesmo :)  
