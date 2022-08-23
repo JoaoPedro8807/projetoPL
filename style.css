@@ -19,6 +19,7 @@
 
 body{
 font-family: Arial, Helvetica, sans-serif;
+height: 100%;
 }
 
 
@@ -36,6 +37,7 @@ header > h1 {
     padding-top: 50px;
     font-family: var(--fonte-subT);
     font-size: 3em;
+    font-variant: small-caps;
 }
 
 nav > a {
@@ -43,75 +45,84 @@ nav > a {
     font-weight: bold;
     padding: 25px;
     color: white;
+    font-variant: small-caps;
 }
 
 main {
    padding: 15px;
 }
 
-
-p#sub  {
-    font-style: italic;
-    padding-left: 15px;
-    padding-bottom: 30px;
-}
-
-section > h1 {
+article > h1 {
     font-size: 2.5em;
     text-align: center;
     font-family: var(--fonte-tittle);
     padding-bottom: 100px;
+    padding-top: 50px;
 
 }
 
-section > h2 {
+article > h2 {
     font-size: 2em;
     font-family: var(--fonte-subT);
     color: #6080BF
 }
 
-section > p#sub{
+article > p#sub{
     padding-bottom: 50px;
     font-style: italic;
     font-size: 0.7em;
 }
 
-
-section {
-    padding-top: 40px;
-    padding-bottom: 100px;
+article { 
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1.5em;    
+    font-size: 1.5em;      
 }
 
-section.img{
-    background-color: black;
+article > p, p#lorem, p#sub {
+    text-indent: 60px;
+    
+}
+
+article > p#lorem {
+    padding-bottom: 100px;
+}
+
+section.normal {
+    padding-top: 140px;
+
+}
+
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    font-family: var(--fonte-padrao);
+
+}
+
+section.img {
+    background-color: rgb(58, 58, 58);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px black;
-    padding-bottom: 600px;
-
+    box-shadow: inset 3px 3px 9px 0px black;
+    background-attachment: fixed;
+    max-height: 480px;
 }
-
 
 section.img > p {
-    background-color: rgba(36, 36, 36, 0.123);
-  /*  display: inline-block; */
-    padding: 10px;
-    text-shadow: 1px 1px 1px black;
-    text-align: left;
-    padding-top: 300px;
+    max-width: 400px;
+    text-align: justify;
+    padding-left: 30px;
+    display: inline-block;
+    text-indent: 30px;
+    font-style: italic;
+    background-color: rgba(95, 95, 95, 0.308);
+    border-radius: 6px;
+    padding-right: 30px;
+    box-shadow: 1px 1px 3px 0px rgba(32, 32, 32, 0.603);
 }
 
-   
-section#img01{
-    background-image: url(./imagens/IMG01.jpg);
-    background-position: right center;
+section#campo{
+    background-image: url(./imagens/UNITED.jpg);
+    background-position: center;
     background-size: cover;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 1px 1px 1px 1px black
-
 }
-
