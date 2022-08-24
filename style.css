@@ -16,16 +16,14 @@
 
 }
 
-
 body{
 font-family: Arial, Helvetica, sans-serif;
-height: 100%;
 }
 
 
 header {
-    padding: 10px;
-    min-height: 150px;
+    padding: 20px;
+    min-height: 160px;
     background-image: linear-gradient(to left, #05F283, #03b662);
     color: white;
 }
@@ -36,20 +34,30 @@ header > h1 {
     padding-bottom: 50px;
     padding-top: 50px;
     font-family: var(--fonte-subT);
-    font-size: 3em;
+    font-size: 4em;
     font-variant: small-caps;
+
 }
 
 nav > a {
     text-decoration: none;
     font-weight: bold;
-    padding: 25px;
     color: white;
-    font-variant: small-caps;
+    transition-duration: .8s;
+}
+
+nav  a:hover{
+    text-decoration: underline;
+    background-color: #006435;
+
+}
+
+nav  a{
+    padding: 15px;    
 }
 
 main {
-   padding: 15px;
+   
 }
 
 article > h1 {
@@ -64,7 +72,9 @@ article > h1 {
 article > h2 {
     font-size: 2em;
     font-family: var(--fonte-subT);
-    color: #6080BF
+    color: #6080BF;
+    text-indent: 40px;
+    text-decoration: underline;
 }
 
 article > p#sub{
@@ -81,6 +91,7 @@ article {
 
 article > p, p#lorem, p#sub {
     text-indent: 60px;
+    padding: 30px;
     
 }
 
@@ -89,7 +100,7 @@ article > p#lorem {
 }
 
 section.normal {
-    padding-top: 140px;
+    padding-top: 100px;
 
 }
 
@@ -103,7 +114,7 @@ section{
 section.img {
     background-color: rgb(58, 58, 58);
     color: white;
-    box-shadow: inset 3px 3px 9px 0px black;
+    box-shadow: inset 3px 3px 6px 0px black;
     background-attachment: fixed;
     max-height: 480px;
 }
@@ -115,14 +126,13 @@ section.img > p {
     display: inline-block;
     text-indent: 30px;
     font-style: italic;
-    background-color: rgba(95, 95, 95, 0.308);
-    border-radius: 6px;
+    background-color: rgba(66, 66, 66, 0.418);
+    border-radius: 20px;
     padding-right: 30px;
-    box-shadow: 1px 1px 3px 0px rgba(32, 32, 32, 0.603);
 }
 
 section#campo{
     background-image: url(./imagens/UNITED.jpg);
-    background-position: center;
+    background-position:  top, center;
     background-size: cover;
 }
