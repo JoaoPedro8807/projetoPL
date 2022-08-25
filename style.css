@@ -14,6 +14,12 @@
     --fonte-tittle: 'Bungee Shade', cursive, serif;
     --fonte-subT: 'Kanit', sans-serif;
 
+    --cor-1: #1C646D;
+    --cor-2: #CEF09D;
+    --cor-3: #A0CD60;
+    --cor-4: #38184C;
+    --cor-5: #1F0802;
+
 }
 
 body{
@@ -24,7 +30,7 @@ font-family: Arial, Helvetica, sans-serif;
 header {
     padding: 20px;
     min-height: 160px;
-    background-image: linear-gradient(to left, #05F283, #03b662);
+    background-image: linear-gradient(to left, #1C646D, #03b662);
     color: white;
 }
 
@@ -54,11 +60,14 @@ nav  a:hover{
 
 nav  a{
     padding: 15px;    
+    border-radius: 10px;
 }
 
 main {
    
 }
+
+
 
 article > h1 {
     font-size: 2.5em;
@@ -81,6 +90,26 @@ article > p#sub{
     padding-bottom: 50px;
     font-style: italic;
     font-size: 0.7em;
+}
+
+article a{
+    color: var(--cor-4);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: .8s;
+
+}
+
+article a:hover{
+    text-decoration: underline;
+    background-color: var(--cor-5);
+    color: white;
+}
+
+a.externo::after{
+    content: '\1F517';
 }
 
 article { 
@@ -112,9 +141,9 @@ section{
 }
 
 section.img {
-    background-color: rgb(58, 58, 58);
+    background-color: rgba(58, 58, 58, 0.253);
     color: white;
-    box-shadow: inset 3px 3px 6px 0px black;
+    box-shadow: inset 1px 1px 3px 0px black;
     background-attachment: fixed;
     max-height: 480px;
 }
@@ -126,7 +155,7 @@ section.img > p {
     display: inline-block;
     text-indent: 30px;
     font-style: italic;
-    background-color: rgba(66, 66, 66, 0.418);
+    background-color: rgba(66, 66, 66, 0.170);
     border-radius: 20px;
     padding-right: 30px;
 }
@@ -136,3 +165,43 @@ section#campo{
     background-position:  top, center;
     background-size: cover;
 }
+
+/* TABELA APARTIR DAQUI */ 
+
+table {
+    border-collapse: collapse;
+    width: 460px;
+    position: relative;
+    margin-left: 40px;
+    
+}
+caption {
+    padding-bottom: 20px;
+    font-size: 1.5em;   
+    font-style: italic; 
+}
+
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+ table  th {
+    background-color: var(--cor-4);
+    color: white;
+    font-weight: bolder;
+ }
+
+ tbody > tr:nth-child(2n){
+    background-color: rgba(146, 146, 146, 0.212);
+ }
+
+ thead > tr > th{
+    position: sticky;
+    top: 0px;
+ }
+
+ article > p#tabela{
+    
+ }
