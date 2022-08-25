@@ -24,6 +24,8 @@
 
 body{
 font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(45deg, #38184C, white, #38184c93);
+
 }
 
 
@@ -64,7 +66,13 @@ nav  a{
 }
 
 main {
-   
+   width: auto;
+   background-color: white;
+   margin-left: 40px;
+   margin-right: 40px;
+   box-shadow: 1px 1px 1px 0px black;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 
@@ -108,6 +116,11 @@ article a:hover{
     color: white;
 }
 
+article#br {
+    padding-top: 80px;
+}
+
+
 a.externo::after{
     content: '\1F517';
 }
@@ -134,8 +147,8 @@ section.normal {
 }
 
 section{
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: var(--fonte-padrao);
 
 }
@@ -146,6 +159,7 @@ section.img {
     box-shadow: inset 1px 1px 3px 0px black;
     background-attachment: fixed;
     max-height: 480px;
+    padding-left: 30px;
 }
 
 section.img > p {
@@ -155,13 +169,14 @@ section.img > p {
     display: inline-block;
     text-indent: 30px;
     font-style: italic;
-    background-color: rgba(66, 66, 66, 0.170);
+    background-color: rgba(48, 48, 48, 0.349);
     border-radius: 20px;
     padding-right: 30px;
+    font-weight: bolder;
 }
 
 section#campo{
-    background-image: url(./imagens/UNITED.jpg);
+    background-image: url(./imagens/7500.webp);
     background-position:  top, center;
     background-size: cover;
 }
@@ -170,10 +185,9 @@ section#campo{
 
 table {
     border-collapse: collapse;
-    width: 460px;
     position: relative;
-    margin-left: 40px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 caption {
     padding-bottom: 20px;
@@ -182,10 +196,11 @@ caption {
 }
 
 
+
 td, th{
     border: 1px solid black;
     text-align: center;
-    padding: 20px;
+    padding: 8px;
 }
  table  th {
     background-color: var(--cor-4);
@@ -204,4 +219,17 @@ td, th{
 
  article > p#tabela{
     
+ }
+
+ section#brzao {
+    background-image: url(./imagens/brasileirao.jpg);
+    background-position: center;
+    height: 800px;
+ }
+
+ footer {
+    height: 280px;
+    background-color: var(--cor-5);
+    color: white;
+
  }
