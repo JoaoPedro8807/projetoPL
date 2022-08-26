@@ -68,12 +68,10 @@ nav  a{
 main {
    width: auto;
    background-color: white;
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 12px;
+   margin-right: 12px;
    box-shadow: 1px 1px 1px 0px black;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-   margin-bottom: 400px;
+   
     }
 
 
@@ -229,37 +227,45 @@ td, th{
  }
 
  footer {
-    height: 280px;
+    width: auto;
+    height: 326px;
     background-color: var(--cor-5);
     color: white;
-    background-image: linear-gradient(to left, #1f0802, #170a1f, #1f0802);
+     background-image: linear-gradient(to left, #1f0802, #170a1f, #1f0802);
  }
  footer a {
     text-decoration: none;
     color: white;
     padding: 10px;
-    border-radius: 8px;
     font-weight: bolder;
  }
 
 footer a:hover{
     text-decoration: underline;
-    
 }
 
-footer ul {
-   
-}
-ul li {
-    padding: 8px;
+ul {
+   padding: 30px;
 }
 
-footer ul#ul1{
-    text-align: right;
-    
+ul > li {
+    padding: 16px;
 }
 
-footer #ul2{
-    width: 400px;
-    margin-block: 0px;
+div{
+    float:left; /*  [MUITO IMPORTANTE] Faz com que podemos colocar duas divs ou duas caixas quaisquer em uma mesma linha
+    (desde que, é claro, caibam horizontalmente na tela (o widht somado das duas divs não ultrapasse o tamanho da tela */ 
+}  
+
+div#rgt {
+    float:right; /* Coloquei a outra lista para a direita, e na mesma linha da primeira linha */ 
+    padding-right: 40px ;
 }
+
+footer p {
+    width: auto;
+    text-align: center;
+    padding-top: 280px;
+
+ }
+
