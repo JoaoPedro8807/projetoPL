@@ -67,9 +67,6 @@ nav  a{
 main {
    width: auto;
    background-color: white;
-   margin-left: 12px;
-   margin-right: 12px;
-   box-shadow: 1px 1px 1px 0px black;
    }
 
 article > h1 {
@@ -170,7 +167,7 @@ section.img > p {
 
 section#campo{
     background-image: url(./imagens/7500.webp);
-    background-position:  top, center;
+    background-position: center;
     background-size: cover;
 }
 
@@ -257,7 +254,7 @@ footer a:hover{
 }
 
 .linha{
-    width: 98vw;
+    width: 96vw;
     background-color: white;
     display: flex; 
     height: 2px;
