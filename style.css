@@ -44,7 +44,6 @@ header > h1 {
     font-family: var(--fonte-subT);
     font-size: 4em;
     font-variant: small-caps;
-
 }
 
 nav > a {
@@ -57,7 +56,6 @@ nav > a {
 nav a:hover{
     text-decoration: underline;
     background-color: #130501;
-
 }
 
 nav  a{
@@ -70,11 +68,8 @@ main {
    background-color: white;
    margin-left: 12px;
    margin-right: 12px;
-   box-shadow: 1px 1px 1px 0px black;
-   
+   box-shadow: 1px 1px 1px 0px black;   
     }
-
-
 
 article > h1 {
     font-size: 2.5em;
@@ -82,7 +77,6 @@ article > h1 {
     font-family: var(--fonte-tittle);
     padding-bottom: 100px;
     padding-top: 50px;
-
 }
 
 article > h2 {
@@ -106,7 +100,6 @@ article a{
     padding: 5px;
     border-radius: 10px;
     transition-duration: .8s;
-
 }
 
 article a:hover{
@@ -118,7 +111,6 @@ article a:hover{
 article#br {
     padding-top: 80px;
 }
-
 
 a.externo::after{
     content: '\1F517';
@@ -243,7 +235,6 @@ footer a:hover{
     padding-top: 60px;
     float: left;
     padding-left:80px;
-
 }
 
 .menu li {
