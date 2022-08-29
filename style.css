@@ -25,7 +25,6 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
 background-image: linear-gradient(45deg, #38184ca9, #38184c98, white, #38184cd5, white, #38184cd5, #38184cd5);
-
 }
 
 
@@ -71,10 +70,7 @@ main {
    margin-left: 12px;
    margin-right: 12px;
    box-shadow: 1px 1px 1px 0px black;
-   
-    }
-
-
+   }
 
 article > h1 {
     font-size: 2.5em;
@@ -82,7 +78,6 @@ article > h1 {
     font-family: var(--fonte-tittle);
     padding-bottom: 100px;
     padding-top: 50px;
-
 }
 
 article > h2 {
@@ -106,7 +101,6 @@ article a{
     padding: 5px;
     border-radius: 10px;
     transition-duration: .8s;
-
 }
 
 article a:hover{
@@ -194,8 +188,6 @@ caption {
     font-style: italic; 
 }
 
-
-
 td, th{
     border: 1px solid black;
     text-align: center;
@@ -216,10 +208,6 @@ td, th{
     top: 0px;
  }
 
- article > p#tabela{
-    
- }
-
  section#brzao {
     background-image: url(./imagens/brasileirao.jpg);
     background-position: center;
@@ -228,10 +216,10 @@ td, th{
 
  footer {
     width: auto;
-    height: 326px;
-    background-color: var(--cor-5);
+    height: 482px;
     color: white;
-     background-image: linear-gradient(to left, #1f0802, #170a1f, #1f0802);
+    background-image: linear-gradient(to left, #1f0802, #170a1f, #1f0802);
+   
  }
  footer a {
     text-decoration: none;
@@ -244,28 +232,40 @@ footer a:hover{
     text-decoration: underline;
 }
 
-ul {
-   padding: 30px;
+.menu {
+    padding-left: 20px;
+    padding-top: 60px;
+    float: left;
+    padding-left:80px;
+
 }
 
-ul > li {
-    padding: 16px;
+.menu li {
+    padding: 24px;
 }
 
-div{
-    float:left; /*  [MUITO IMPORTANTE] Faz com que podemos colocar duas divs ou duas caixas quaisquer em uma mesma linha
-    (desde que, é claro, caibam horizontalmente na tela (o widht somado das duas divs não ultrapasse o tamanho da tela */ 
-}  
-
-div#rgt {
-    float:right; /* Coloquei a outra lista para a direita, e na mesma linha da primeira linha */ 
-    padding-right: 40px ;
+.redes {
+    float: right;
+    width: 100px;
+    padding-top: 40px;
+    margin-right: 100px;
+    height: 320px;
 }
 
-footer p {
-    width: auto;
+.redes li {
+    padding: 8px;
+}
+
+.linha{
+    width: 98vw;
+    background-color: white;
+    display: flex; 
+    height: 2px;
+    margin-top: 40px;
+}
+
+footer > p {
     text-align: center;
-    padding-top: 280px;
-
- }
-
+    font-style: italic;
+    font-size: 1em;
+}
